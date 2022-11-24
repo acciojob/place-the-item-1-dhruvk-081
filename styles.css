@@ -1,2 +1,14 @@
+  .holder{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
 
-/* Your CSS Code here. */
+  .box{
+    min-width: 100px;
+    background-color:lightblue
+    border: 1px solid black;
+  }
